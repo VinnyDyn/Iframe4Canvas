@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="VinnyBControls" constructor="Iframe4Canvas" version="0.0.1" display-name-key="Iframe4Canvas" description-key="Iframe4Canvas description" control-type="standard">
+    <property name="src" display-name-key="Src" description-key="" of-type="SingleLine.TextArea" usage="bound" required="true" />
+    <property name="height" display-name-key="Iframe Height" description-key="" of-type="Whole.None" usage="input" required="true" />
+    <property name="width" display-name-key="Iframe Width" description-key="" of-type="Whole.None" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/Iframe4Canvas.css" order="1" />
+    </resources>
+  </control>
+</manifest>
