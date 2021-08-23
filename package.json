@@ -13,7 +13,7 @@
     "@types/powerapps-component-framework": "^1.2.0"
   },
   "devDependencies": {
-    "pcf-scripts": "^1",
-    "pcf-start": "^1"
+    "pcf-scripts": "^1.5.5",
+    "pcf-start": "^1.5.5"
   }
 }
